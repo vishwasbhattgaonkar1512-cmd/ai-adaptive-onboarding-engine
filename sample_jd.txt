@@ -1,0 +1,3 @@
+We are hiring a Data Analyst.
+Required skills: Python, SQL, Power BI, Data Visualization.
+Responsibilities include dashboarding, reporting, and business insights.

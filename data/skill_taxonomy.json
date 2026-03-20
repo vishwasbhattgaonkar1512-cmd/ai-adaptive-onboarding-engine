@@ -1,0 +1,12 @@
+{
+  "python": ["python", "python programming"],
+  "sql": ["sql", "mysql", "postgresql", "database querying"],
+  "excel": ["excel", "microsoft excel", "spreadsheet analysis"],
+  "power bi": ["power bi", "powerbi", "bi dashboards"],
+  "data visualization": ["data visualization", "dashboarding", "reporting dashboards"],
+  "javascript": ["javascript", "js"],
+  "html": ["html", "html5"],
+  "css": ["css", "css3", "tailwind css"],
+  "react": ["react", "react.js", "reactjs"],
+  "api integration": ["api integration", "rest api", "fetching api data"]
+}

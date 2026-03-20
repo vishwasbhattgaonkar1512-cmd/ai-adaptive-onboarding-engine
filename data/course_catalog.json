@@ -1,0 +1,37 @@
+[
+  {
+    "title": "SQL Fundamentals",
+    "skills": ["sql"],
+    "duration_hours": 4,
+    "prerequisites": [],
+    "phase": "Foundations"
+  },
+  {
+    "title": "Power BI Dashboarding",
+    "skills": ["power bi", "data visualization"],
+    "duration_hours": 5,
+    "prerequisites": ["sql"],
+    "phase": "Core Role Skills"
+  },
+  {
+    "title": "JavaScript Essentials",
+    "skills": ["javascript"],
+    "duration_hours": 4,
+    "prerequisites": [],
+    "phase": "Foundations"
+  },
+  {
+    "title": "React Fundamentals",
+    "skills": ["react"],
+    "duration_hours": 6,
+    "prerequisites": ["javascript", "html", "css"],
+    "phase": "Core Role Skills"
+  },
+  {
+    "title": "API Integration Basics",
+    "skills": ["api integration"],
+    "duration_hours": 3,
+    "prerequisites": ["javascript"],
+    "phase": "Job Readiness"
+  }
+]
