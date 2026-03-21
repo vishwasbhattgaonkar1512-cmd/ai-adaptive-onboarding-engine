@@ -1,17 +1,41 @@
-def analyze_skill_gap(resume_skills, jd_skills):
+def level_score(level: str) -> int:
+    mapping = {
+        "beginner": 1,
+        "intermediate": 2,
+        "advanced": 3
+    }
+    return mapping.get(level, 2)
+
+
+def analyze_skill_gap(resume_skills, jd_skills, resume_levels=None, jd_levels=None):
+    resume_levels = resume_levels or {}
+    jd_levels = jd_levels or {}
+
     resume_set = set(resume_skills)
     jd_set = set(jd_skills)
 
-    matched = sorted(list(resume_set & jd_set))
-    missing = sorted(list(jd_set - resume_set))
+    matched = []
     partial = []
+    missing = []
+
+    for skill in sorted(jd_set):
+        if skill not in resume_set:
+            missing.append(skill)
+        else:
+            resume_level = resume_levels.get(skill, "intermediate")
+            jd_level = jd_levels.get(skill, "intermediate")
+
+            if level_score(resume_level) >= level_score(jd_level):
+                matched.append(skill)
+            else:
+                partial.append(skill)
 
     total = len(jd_skills) if jd_skills else 1
-    score = (len(matched) / total) * 100
+    weighted_score = ((len(matched) * 1.0) + (len(partial) * 0.5)) / total * 100
 
-    if score >= 80:
+    if weighted_score >= 80:
         readiness = "High"
-    elif score >= 55:
+    elif weighted_score >= 55:
         readiness = "Medium"
     else:
         readiness = "Low"
@@ -20,6 +44,6 @@ def analyze_skill_gap(resume_skills, jd_skills):
         "matched_skills": matched,
         "missing_skills": missing,
         "partial_skills": partial,
-        "match_score": round(score, 2),
+        "match_score": round(weighted_score, 2),
         "readiness_level": readiness
     }

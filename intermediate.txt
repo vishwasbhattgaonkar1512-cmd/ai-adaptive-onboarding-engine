@@ -1,0 +1,78 @@
+Rohit Patil
+Email: rohit.patil.cs@gmail.com
+Phone: +91 9823456781
+Location: Nashik, Maharashtra, India
+LinkedIn: linkedin.com/in/rohitpatil
+GitHub: github.com/rohitpatil-dev
+
+PROFESSIONAL SUMMARY
+Enthusiastic and detail-oriented aspiring software and data professional with hands-on experience in web development, dashboards, and API-based applications through academic projects and internships. Possesses intermediate knowledge of Python, SQL, JavaScript, and dashboard tools. Comfortable working with frontend-backend integration, databases, and reporting tasks. Eager to contribute to data-driven products and continuously improve technical and analytical skills.
+
+TECHNICAL SKILLS
+Programming Languages:
+Python, JavaScript, SQL, HTML, CSS
+
+Frontend:
+React.js, Next.js, Tailwind CSS
+
+Backend:
+FastAPI, Node.js, Express.js
+
+Database:
+MySQL, PostgreSQL, Supabase
+
+Tools & Platforms:
+Git, GitHub, Postman, Vercel, Render
+
+Data & Reporting:
+Excel, Power BI, Data Cleaning, Dashboard Building
+
+Core Concepts:
+REST APIs, CRUD Operations, Responsive Design, Authentication, Problem Solving
+
+INTERNSHIP EXPERIENCE
+Web Development Intern
+CodeSphere Technologies | Dec 2024 – Feb 2025
+- Built responsive user interfaces using React.js and Tailwind CSS.
+- Integrated backend APIs for dashboards and user modules.
+- Worked with GitHub for version control and team collaboration.
+- Gained practical experience in debugging and component-based development.
+
+Project & Data Intern
+InsightBridge Labs | Jun 2025 – Aug 2025
+- Assisted in building a reporting dashboard using SQL, Excel, and Power BI.
+- Cleaned and organized structured datasets for internal business reports.
+- Created simple API endpoints with FastAPI for data retrieval.
+- Supported dashboard testing and validation with sample business data.
+
+ACADEMIC PROJECTS
+1. Student Performance Dashboard
+- Developed a dashboard for analyzing student performance using Power BI and Excel.
+- Generated charts and reports to identify subject-wise performance trends.
+
+2. Task Management Web App
+- Built a role-based task management system using React, FastAPI, and Supabase.
+- Implemented login, CRUD features, and task filtering.
+
+3. Resume Matcher Prototype
+- Created a mini system that compares resumes with job descriptions using Python.
+- Extracted skills and generated simple match results for shortlisted profiles.
+
+EDUCATION
+Bachelor of Engineering in Computer Science
+Savitribai Phule Pune University
+2022 – 2026
+
+CERTIFICATIONS
+- Python Fundamentals
+- SQL Basics to Intermediate
+- Power BI for Beginners
+- React.js Essentials
+
+STRENGTHS
+Analytical Thinking, Team Collaboration, Communication, Adaptability, Time Management
+
+ACHIEVEMENTS
+- Completed multiple academic projects involving dashboards and web apps
+- Participated in college-level hackathons and technical events
+- Built and deployed small full-stack applications for practice

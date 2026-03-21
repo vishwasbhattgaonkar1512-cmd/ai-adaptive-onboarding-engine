@@ -1,3 +1,55 @@
-We are hiring a Data Analyst.
-Required skills: Python, SQL, Power BI, Data Visualization.
-Responsibilities include dashboarding, reporting, and business insights.
+Job Title: Junior Data & Product Analyst
+
+Location: Bengaluru, India
+Employment Type: Full-Time
+
+ABOUT THE ROLE
+We are looking for a Junior Data & Product Analyst who can bridge product understanding, business reporting, and technical execution. The ideal candidate should be comfortable working with dashboards, SQL, analytics tools, APIs, and product teams to generate actionable insights and improve onboarding efficiency.
+
+KEY RESPONSIBILITIES
+- Analyze business and product data to identify trends, bottlenecks, and improvement opportunities.
+- Build and maintain dashboards for tracking user onboarding, engagement, and retention metrics.
+- Work with SQL databases to clean, query, and transform data for analysis.
+- Collaborate with product managers, developers, and operations teams.
+- Support internal teams with reporting automation and insight generation.
+- Interpret job-role requirements and map skill-based learning recommendations for internal training workflows.
+- Assist in the development of lightweight internal tools for reporting and workflow optimization.
+
+REQUIRED SKILLS
+- SQL
+- Python
+- Excel
+- Power BI
+- Data Visualization
+- REST APIs
+- Dashboard Development
+- Product Analytics
+- Problem Solving
+- Communication
+
+PREFERRED SKILLS
+- A/B Testing
+- User Behavior Analysis
+- Supabase or PostgreSQL
+- FastAPI or Flask
+- Git and GitHub
+- Basic Machine Learning understanding
+- Data Cleaning
+- Reporting Automation
+
+EXPERIENCE EXPECTATION
+- Strong SQL and dashboarding skills
+- Intermediate Python proficiency
+- Working knowledge of REST APIs
+- Beginner to intermediate understanding of product analytics
+- Ability to communicate insights clearly to technical and non-technical stakeholders
+
+QUALIFICATIONS
+- Bachelor’s degree in Computer Science, Information Technology, Data Analytics, or related field
+- 0–2 years of internship, project, or work experience in analytics, reporting, product, or software systems
+
+WHY JOIN US
+- Opportunity to work on product onboarding optimization
+- Exposure to dashboards, analytics, and internal AI-driven workflows
+- Collaborative learning-focused environment
+- Real ownership of reporting and insight generation tasks

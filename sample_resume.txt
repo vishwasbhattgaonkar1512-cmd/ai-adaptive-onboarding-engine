@@ -1,3 +1,81 @@
-John Doe
-Skills: Python, SQL, Excel
-Projects: Built a sales dashboard using Python and SQL. Created reports in Excel.
+Aarav Kulkarni
+Email: aarav.kulkarni.dev@gmail.com
+Phone: +91 9876543210
+Location: Pune, Maharashtra, India
+LinkedIn: linkedin.com/in/aaravkulkarni
+GitHub: github.com/aaravkulkarni
+
+PROFESSIONAL SUMMARY
+Motivated and detail-oriented software developer with experience in frontend development, backend APIs, dashboards, and database-driven applications. Skilled in JavaScript, React, Python, SQL, and REST API integration. Built multiple academic and freelance projects involving web applications, admin panels, analytics dashboards, and cloud-based deployment. Strong foundation in problem-solving, teamwork, debugging, and software development lifecycle.
+
+TECHNICAL SKILLS
+Programming Languages:
+JavaScript, TypeScript, Python, SQL, HTML, CSS
+
+Frontend:
+React, Next.js, Tailwind CSS, Bootstrap
+
+Backend:
+Node.js, Express.js, FastAPI, REST APIs
+
+Database:
+MySQL, PostgreSQL, Supabase, MongoDB
+
+Tools & Platforms:
+Git, GitHub, Postman, Vercel, Render, Docker, Figma
+
+Data & Analytics:
+Power BI, Excel, Data Visualization, Dashboard Building
+
+Core Concepts:
+Data Structures, OOP, API Integration, Authentication, Responsive Design
+
+EXPERIENCE
+Frontend Developer Intern
+TechNova Solutions | Jan 2025 – Apr 2025
+- Developed responsive web pages using React and Tailwind CSS.
+- Integrated REST APIs and optimized dashboard performance.
+- Built reusable UI components for admin and analytics panels.
+- Collaborated with backend developers using Git and GitHub.
+
+Full Stack Project Intern
+DataSprint Labs | Jun 2025 – Aug 2025
+- Created a role-based task management system using Next.js, FastAPI, and Supabase.
+- Designed database tables and implemented CRUD APIs.
+- Built analytics dashboards using SQL queries and chart components.
+- Deployed applications on Vercel and Render.
+
+PROJECTS
+1. AI Adaptive Learning Dashboard
+- Built an intelligent dashboard for personalized learning recommendations.
+- Used Next.js, FastAPI, Supabase, and Tailwind CSS.
+- Added user progress tracking, skill-based recommendations, and admin analytics.
+
+2. Sales Analytics Dashboard
+- Built an interactive business dashboard using Power BI and SQL.
+- Designed reports for sales trends, product categories, and regional performance.
+- Improved reporting efficiency using automated data filtering.
+
+3. Resume Screening Web App
+- Developed a resume screening application with Python and FastAPI.
+- Extracted candidate details and matched profiles against job requirements.
+- Integrated file upload, text extraction, and result visualization.
+
+EDUCATION
+Bachelor of Engineering in Computer Science
+Savitribai Phule Pune University
+2022 – 2026
+
+CERTIFICATIONS
+- React Frontend Development Certificate
+- Python for Web Applications
+- SQL for Data Analysis
+- Power BI Fundamentals
+
+SOFT SKILLS
+Teamwork, Communication, Problem Solving, Time Management, Adaptability
+
+ACHIEVEMENTS
+- Built and deployed 5+ end-to-end academic and freelance projects
+- Led frontend development for a college hackathon project
+- Won 2nd place in an inter-college software presentation competition

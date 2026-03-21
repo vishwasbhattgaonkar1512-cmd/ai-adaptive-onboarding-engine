@@ -1,0 +1,58 @@
+Job Title: Associate Data & Reporting Analyst
+
+Location: Pune, Maharashtra, India
+Employment Type: Full-Time
+
+ABOUT THE ROLE
+We are looking for an Associate Data & Reporting Analyst who can support internal analytics, dashboarding, and reporting workflows. The ideal candidate should have a solid foundation in SQL, Python, Excel, and visualization tools, along with the ability to work with APIs, structured datasets, and cross-functional teams. This role is ideal for a candidate with internship or project experience who wants to grow into a product and analytics-focused position.
+
+KEY RESPONSIBILITIES
+- Build and maintain dashboards for internal reporting and performance tracking.
+- Write SQL queries to extract, clean, and transform data from operational databases.
+- Use Python for data preparation, reporting support, and lightweight automation tasks.
+- Work with Excel and BI tools to create clear business reports and visual summaries.
+- Support product, operations, and business teams with data-backed insights.
+- Assist in integrating API-based data sources into reporting workflows.
+- Participate in internal tooling and onboarding optimization projects.
+- Communicate analytical findings clearly to both technical and non-technical stakeholders.
+
+REQUIRED SKILLS
+- SQL
+- Python
+- Excel
+- Power BI
+- Data Cleaning
+- Dashboard Building
+- REST APIs
+- Problem Solving
+- Communication
+- Git and GitHub
+
+PREFERRED SKILLS
+- PostgreSQL
+- Supabase
+- FastAPI
+- Reporting Automation
+- Data Visualization
+- Product Analytics
+- User Behavior Analysis
+- Basic Statistics
+- Basic Machine Learning Concepts
+
+EXPERIENCE EXPECTATION
+- Intermediate SQL proficiency
+- Intermediate Python proficiency
+- Beginner to intermediate dashboard development skills
+- Working knowledge of REST APIs
+- Familiarity with Excel-based reporting and data cleaning
+- Ability to collaborate in small technical teams
+
+QUALIFICATIONS
+- Bachelor’s degree in Computer Science, Information Technology, Data Science, or related field
+- 0–2 years of internship, project, or practical experience in analytics, reporting, or software systems
+
+WHY JOIN US
+- Work on practical analytics and reporting problems
+- Build experience with dashboards, data workflows, and internal tools
+- Learn from cross-functional teams in a collaborative environment
+- Contribute to onboarding and reporting efficiency initiatives
