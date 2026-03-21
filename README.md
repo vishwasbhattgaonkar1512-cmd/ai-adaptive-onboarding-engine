@@ -3,6 +3,7 @@
 An AI-driven onboarding prototype that analyzes a candidate’s resume against a target job description, identifies skill gaps, and generates a personalized learning roadmap to accelerate role readiness.
 
 Presented by: Vishwas Bhattgaonkar (Team Leader), Saurav Jadhav, Mithilesh Deshpande, Brian Fernandes
+
 Video And Presentation Link : https://drive.google.com/drive/folders/1ybPLM1U3SbknSEZnxWQiIrGPEBwYctMR?usp=sharing
 ---
 
