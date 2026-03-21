@@ -341,3 +341,114 @@ Readiness Level
 Roadmap
 Reasoning Trace
 Metrics
+
+
+Local Setup Instructions
+1. Clone the repository
+
+git clone https://github.com/vishwasbhattgaonkar1512-cmd/ai-adaptive-onboarding-engine.git
+cd ai-adaptive-onboarding-engine
+
+2. Backend setup
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+Backend runs at:
+
+http://127.0.0.1:8000
+
+Swagger docs:
+
+http://127.0.0.1:8000/docs
+
+3. Frontend setup
+
+Open a new terminal:
+
+cd frontend
+npm install
+npm run dev
+
+Frontend runs at:
+
+http://localhost:3000
+
+Environment Variables
+
+Create a backend/.env file and add:
+
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+
+Sample Demo Files
+
+You can test the prototype using:
+
+sample_resume.txt
+sample_jd.txt
+simple.txt
+simple-jd.txt
+intermediate.txt
+inetrmediate-jd.txt
+
+These files help demonstrate:
+
+high match cases
+medium match cases
+simple office role cases
+different domain adaptability
+Strengths of Our Approach
+Transparent logic
+Hackathon-friendly stability
+No dependency on expensive paid APIs
+Grounded recommendations
+Good explainability through reasoning trace
+Personalized training pathways
+Suitable for multiple job domains
+Current Limitations
+Experience level extraction is heuristic-based
+Skill extraction currently depends on skill taxonomy quality
+Resume/JD formatting variety may affect parsing quality
+Some advanced semantic matching features can still be improved
+Frontend UI is minimal and designed for functional clarity
+Future Improvements
+Add stronger semantic similarity using embedding models
+Add fuzzy skill normalization with richer synonym mapping
+Improve experience estimation using more robust NLP techniques
+Add authentication and user dashboards
+Add persistent onboarding history
+Add downloadable reports
+Add recruiter/admin analytics panel
+Add Dockerized deployment for smoother judging environment
+Evaluation Alignment
+
+This project is designed to align with the hackathon criteria:
+
+Technical Sophistication → skill extraction + adaptive logic
+Grounding and Reliability → course-catalog-based recommendations
+Reasoning Trace → explicit recommendation explanations
+Product Impact → reduced redundant training
+User Experience → clear roadmap visualization
+Cross-Domain Scalability → usable beyond only coding roles
+Communication & Documentation → structured README and demo flow
+Team Contribution
+
+This project was built as a collaborative hackathon prototype covering:
+
+frontend interface
+backend APIs
+parsing and analysis logic
+adaptive training recommendation
+documentation and demo preparation
+Conclusion
+
+AI-Adaptive Onboarding Engine is a practical prototype that rethinks onboarding as a dynamic, candidate-specific process rather than a fixed curriculum.
+
+By combining parsing, skill-gap analysis, grounded recommendations, and explainable reasoning, the system helps move candidates toward role readiness in a faster and more efficient way.
+
+Repository
+
+GitHub Repository:
+https://github.com/vishwasbhattgaonkar1512-cmd/ai-adaptive-onboarding-engine
