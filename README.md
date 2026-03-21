@@ -151,4 +151,193 @@ Reasoning Trace Generation
 Result Display + Optional Supabase Save
 
 
+Project Structure
 
+ai-adaptive-onboarding/
+│
+├── backend/
+│   ├── main.py
+│   ├── models/
+│   └── utils/
+│       ├── parser.py
+│       ├── skill_extractor.py
+│       ├── gap_analysis.py
+│       ├── roadmap_generator.py
+│       ├── reasoning_trace.py
+│       ├── experience_extractor.py
+│       ├── metrics.py
+│       └── supabase_client.py
+│
+├── frontend/
+│   ├── app/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
+├── data/
+│   ├── skill_taxonomy.json
+│   └── course_catalog.json
+│
+├── sample_resume.txt
+├── sample_jd.txt
+├── simple.txt
+├── simple-jd.txt
+├── intermediate.txt
+├── inetrmediate-jd.txt
+├── README.md
+└── .gitignore
+
+How the Engine Works
+Step 1: Text Extraction
+
+The uploaded Resume and Job Description are parsed into plain text.
+
+Step 2: Skill Extraction
+
+The engine scans both texts against a predefined skill taxonomy and identifies relevant skills.
+
+Step 3: Experience Level Inference
+
+For each detected skill, nearby keywords are analyzed to infer approximate proficiency:
+
+Beginner
+Intermediate
+Advanced
+Step 4: Skill Gap Analysis
+
+The system compares candidate skills with target role skills and classifies them into:
+
+Matched Skills
+Partial Skills
+Missing Skills
+Matching logic:
+Matched → Skill found and proficiency is sufficient
+Partial → Skill found but candidate level is below JD expectation
+Missing → Skill required by JD but absent from Resume
+Step 5: Adaptive Roadmap Generation
+
+Missing and partial skills are mapped to modules in the course catalog.
+
+The roadmap is organized into phases such as:
+
+Foundations
+Core Role Skills
+Job Readiness
+Step 6: Reasoning Trace
+
+The final response includes a reasoning trace explaining:
+
+why a skill is matched / partial / missing
+why certain modules were recommended
+Internal Logic Used for Skill-Gap Analysis
+
+This project uses a hybrid logical approach rather than relying completely on external hosted LLM APIs.
+
+Why?
+
+For hackathon demos, stability and reproducibility matter more than flashy but unreliable remote inference.
+
+Current logic includes:
+Rule-based skill detection
+Taxonomy-based matching
+Experience keyword extraction
+Proficiency-level comparison
+Gap scoring
+Catalog-grounded training recommendation
+Phase-wise roadmap generation
+
+This ensures:
+
+Lower demo risk
+Faster inference
+Better transparency
+Easier debugging
+Higher reliability
+Match Score and Readiness
+
+The system computes a weighted match score based on:
+
+Fully matched skills
+Partial skills
+Missing skills
+Readiness levels:
+High
+Medium
+Low
+
+These provide a quick view of how close a candidate is to the target role.
+
+Metrics Generated
+
+The backend also computes useful metrics such as:
+
+Total required skills
+Matched skills count
+Missing skills count
+Partial skills count
+Estimated learning hours
+Recommended modules count
+Redundant training saved
+
+These metrics help measure the efficiency of adaptive onboarding.
+
+Datasets / Data Sources Used
+
+This project is designed to work with publicly available data sources and structured skill catalogs.
+
+Potential and referenced sources include:
+
+Resume Dataset
+Kaggle Resume Dataset
+ONET Database
+ONET job role and skill database
+Job Description Dataset
+Kaggle Jobs and Job Description dataset
+
+These datasets are useful for:
+
+skill taxonomy building
+role requirement mapping
+testing across domains
+Transparency and Compliance
+
+This project follows the challenge requirement that:
+
+all datasets and open-source tools/models should be clearly disclosed
+adaptive recommendation logic should be original
+Important note:
+
+The recommendation logic in this project is our own implementation.
+
+The system does not generate random course suggestions.
+All roadmap recommendations are grounded in the predefined course catalog.
+
+Sample Use Cases
+
+This engine can be used across different job categories, such as:
+
+Software / Frontend roles
+Data / Reporting roles
+Operations / Coordination roles
+Entry-level office support workflows
+
+This demonstrates cross-domain scalability.
+
+Example Output
+
+The system returns a structured analysis including:
+
+Candidate Name
+Target Role
+Resume Skills
+JD Skills
+Resume Skill Levels
+JD Skill Levels
+Matched Skills
+Missing Skills
+Partial Skills
+Match Score
+Readiness Level
+Roadmap
+Reasoning Trace
+Metrics
